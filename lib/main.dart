@@ -41,7 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   'Igor Tauhan',
                   style: TextStyle(
                     color: Colors.cyan.shade50,
-                    fontSize: 40.0,
+                    fontSize: 60.0,
+                    fontFamily: 'MonteCarlo'
                   ),
                 ),
                 SizedBox(
@@ -98,6 +99,58 @@ class _MyHomePageState extends State<MyHomePage> {
                         ],
                       ),
                     ),
+                  ),
+                ),
+                SizedBox(
+                  height: 15.0,
+                ),
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Divider(
+                    height: 10.0,
+                    color: Colors.cyan.shade50,
+                  ),
+                ),
+                SizedBox(
+                  height: 15.0,
+                ),
+                Card(
+                  color: Colors.cyanAccent.shade200,
+                  margin: EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        leading: Icon(Icons.account_circle, color: Colors.cyan.shade50,),
+                        title: Text(
+                          'github.com/igortauh',
+                          style: TextStyle(
+                            color: Colors.cyan.shade50,
+                            fontSize: 22.0
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                SizedBox(
+                  height: 15.0,
+                ),
+                Card(
+                  color: Colors.cyanAccent.shade200,
+                  margin: EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Column(
+                    children: [
+                      ListTile(
+                        leading: Icon(Icons.location_on, color: Colors.cyan.shade50,),
+                        title: Text(
+                          'Bahia, Brazil',
+                          style: TextStyle(
+                              color: Colors.cyan.shade50,
+                              fontSize: 22.0
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
